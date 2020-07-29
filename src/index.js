@@ -1,8 +1,5 @@
-const greet = (name) => {
-  if (!name) {
-    return 'Hello'
-  }
-  return `Hello ${name}`
-}
+const { generateBillDocument } = require('./generateBillDocument')
 
-module.exports = { greet }
+module.exports = {
+  generateBillDocument,
+}
